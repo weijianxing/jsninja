@@ -6,6 +6,7 @@
 
 
 const {sum, times} = require('./demo1')
+const {mutiMax} = require('./demo2')
 
 test('caculate sum 2+2+2+2+2+2 ',()=>{
   expect(sum(2+2+2+2+2+2)).toBe(12)
@@ -17,4 +18,8 @@ test('caculate  times 2,6',()=>{
 
 test('diff two fun times(2,6) and sum(2+2+2+2+2+2)',()=>{
   expect(times(2,6)).toEqual(sum(2+2+2+2+2+2))
+})
+
+test('test mutimaxvalue ',()=>{
+  expect(mutiMax(3,1,2,3)).toEqual(9)
 })

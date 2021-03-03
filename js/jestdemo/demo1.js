@@ -16,3 +16,10 @@ exports.sum = (...args) => {
     let resArr = (new Array(b)).fill(a)
     return exports.sum(...resArr)
   }
+
+  exports.mutiMax=(fist, ...remainnumbers)=>{
+    var sort = remainnumbers.sort(function (a,b){
+      return b - a;
+    });
+    return fist * sort[0]
+  }
