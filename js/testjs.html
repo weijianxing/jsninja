@@ -1,0 +1,26 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            // import myassert from 'js/myassert'
+            // var assert = myassert.assert;
+            function assert(condition, message) {
+            var prepend = condition ? "PASS: " : "FAIL: "
+            console.log(prepend + message);
+            };
+            var text = "Domo arigato!";
+            console.log("Before defining functions");
+            function gettext() {
+                console.log("In getText function")
+            };
+            function useless(callbackfun) {
+                return callbackfun();
+            };
+            
+           
+            console.log("Before making all the calls");
+            assert(useless(function(){return text;}) === text, "The useless function works! " + text);
+            console.log("After the calls have been made");
+        </script>
+    </body>
+</html>
