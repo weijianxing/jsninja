@@ -23,3 +23,9 @@ exports.sum = (...args) => {
     });
     return fist * sort[0]
   }
+
+  exports.thisdef= (a)=>{
+    a += 1
+    // return this;
+    return a;
+}

@@ -5,7 +5,7 @@
 // be ataction should define the test script extation as .text.js
 
 
-const {sum, times} = require('./demo1')
+const {sum, times, thisdef} = require('./demo1')
 const {mutiMax} = require('./demo2')
 
 test('caculate sum 2+2+2+2+2+2 ',()=>{
@@ -22,4 +22,7 @@ test('diff two fun times(2,6) and sum(2+2+2+2+2+2)',()=>{
 
 test('test mutimaxvalue ',()=>{
   expect(mutiMax(3,1,2,3)).toEqual(9)
+})
+test('test thisdef ',()=>{
+  expect(thisdef(1)).toEqual(2)
 })

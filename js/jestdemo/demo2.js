@@ -5,3 +5,4 @@ exports.mutiMax = function mutiMax(first, ...remains) {
     });
     return first*sort[0]
 }
+
