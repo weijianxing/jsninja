@@ -30,9 +30,10 @@ const ninjas = [
         }
     }
 elems.gather(1)
-elems.gather(2)
+// elems.gather(2)
+
 test("array test : ", ()=>{
-    expect(elems.length).toBe(2)
+    expect(elems.length).toBe(1)
 })
 test('ninja object ',()=>{
     expect(ninja.name).toBe('tester')
