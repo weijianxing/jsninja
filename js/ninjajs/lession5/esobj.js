@@ -8,7 +8,8 @@ class Ninja{
 }
 // referfore by other js should exports this content and used by const {Ninja} =  require("./esobj")
 
-exports.Ninja = Ninja
+exports.Ninja = Ninja;
+
 // var ninja = new Ninja("tester")
 // console.log(ninja.name)
 // console.log(ninja.swingsword())
