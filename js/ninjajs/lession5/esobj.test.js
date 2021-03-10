@@ -1,4 +1,5 @@
 const {Ninja} =  require("./esobj")
+import testfun from "./esobj"
 
 var ninja = new Ninja("tester");
 
@@ -15,8 +16,8 @@ const ninjas = [
     });
 
     // console.log(ninjawithwakizashi.name)
-    console.log(ninjas.find(nin=>nin.weapon === 'wakizashi'))
-    console.log(ninjas.filter(nin=> 'weapon' in nin))
+    // console.log(ninjas.find(nin=>nin.weapon === 'wakizashi'))
+    // console.log(ninjas.filter(nin=> 'weapon' in nin))
     const elems = {
         length: 0,
         add: function (elem) {
@@ -30,6 +31,7 @@ const ninjas = [
         }
     }
 elems.gather(1)
+testfun()
 // elems.gather(2)
 
 test("array test : ", ()=>{

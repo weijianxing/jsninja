@@ -10,6 +10,13 @@ class Ninja{
 
 exports.Ninja = Ninja;
 
+
+const testc = "test"
+function  testfun(params) {
+    console.log("test fun")
+}
+export {testc, testfun}
+
 // var ninja = new Ninja("tester")
 // console.log(ninja.name)
 // console.log(ninja.swingsword())
