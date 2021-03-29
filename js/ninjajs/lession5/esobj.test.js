@@ -1,7 +1,7 @@
 const {Ninja} =  require("./esobj")
-import testfun from "./esobj"
+// import testfun from "./esobj"
 
-var ninja = new Ninja("tester");
+// var ninja = new Ninja("tester");
 
 // console.log(ninja.swingsword())
 // console.log(ninja.name)
@@ -31,15 +31,15 @@ const ninjas = [
         }
     }
 elems.gather(1)
-testfun()
+// testfun()
 // elems.gather(2)
 
 test("array test : ", ()=>{
     expect(elems.length).toBe(1)
 })
-test('ninja object ',()=>{
-    expect(ninja.name).toBe('tester')
-  })
+// test('ninja object ',()=>{
+//     expect(ninja.name).toBe('tester')
+//   })
   
 // console.log(ninja.name)
 // console.log(ninja.swingsword())

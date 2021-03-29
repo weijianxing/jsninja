@@ -11,11 +11,11 @@ class Ninja{
 exports.Ninja = Ninja;
 
 
-const testc = "test"
+// const testc = "test"
 function  testfun(params) {
     console.log("test fun")
 }
-export {testc, testfun}
+// export {testfun}
 
 // var ninja = new Ninja("tester")
 // console.log(ninja.name)
